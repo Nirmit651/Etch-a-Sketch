@@ -1,0 +1,77 @@
+body{
+    background: rgb(255,200,221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Etch-a-Sketch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: crimson;
+    width: 1100px;
+    height: 1100px;
+    border-radius: 10%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+    padding: 10px;
+}
+
+.btn-new-grid{
+    border-radius: 100%;
+    background: gold;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.btn-clear-grid{
+    border-radius: 100%;
+    background: gold;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+#grid{
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 50px;
+}
+
+.grid-box{
+    background: white;
+    border: 0px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid-box.active{
+    background: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-style: solid;
+    border-color: blue;
+}
